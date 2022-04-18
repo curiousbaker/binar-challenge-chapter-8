@@ -1,5 +1,5 @@
-const { compare } = require("bcrypt");
-const { hash } = require("bcrypt");
+const { compare } = require("bcryptjs");
+const { hash } = require("bcryptjs");
 
 module.exports = {
   hashPassword: async (password) => {
